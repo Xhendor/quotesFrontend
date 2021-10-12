@@ -1,0 +1,14 @@
+{
+  "/quotes":{
+
+      "target":"https://secret-sierra-46631.herokuapp.com/quotes",
+      "secure": true,
+      "pathRewriter":{
+        "^/quotes":""
+      },"changeOrigin":true
+
+  }
+
+
+
+}
